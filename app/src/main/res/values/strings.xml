@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">countTimes</string>
+    <string name="welcome">Welcome !</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_sign_up">Welcome Sign Up</string>
+    <string name="username">Username</string>
+    <string name="input_username">input username</string>
+    <string name="password">password</string>
+    <string name="input_password">Input password</string>
+    <string name="ok">OK</string>
+    <string name="o_k">O k</string>
+    <string name="user">user</string>
+    <string name="kiem_tra">Kiem Tra</string>
+    <string name="d_day">D Day</string>
+    <string name="strart">Strart</string>
+    <string name="enter_nickname">Enter NickName</string>
+    <string name="enter_password">Enter PassWord</string>
+    <string name="verify_password">Verify PassWord</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="name_of_d_day">Name of d_day</string>
+    <string name="set_d_day">Set D_Day</string>
+    <string name="save">Save</string>
+    <string name="chart">  Chart</string>
+    <string name="on_study">on study</string>
+    <string name="off_study">off study</string>
+    <string name="on_eat_cook">on eat/cook</string>
+    <string name="off_eat_cook">off eat/cook</string>
+    <string name="on_exercise">on exercise</string>
+    <string name="off_exercise">off exercise</string>
+    <string name="on_chill">on chill</string>
+    <string name="off_chill">off chill</string>
+    <string name="on_sleep">on sleep</string>
+    <string name="off_sleep">off sleep</string>
+    <string name="stop">stop</string>
+    <string name="start">Start</string>
+
+
+</resources>

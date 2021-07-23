@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FC2DA"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSetD_Day"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8FC2DA"
+                android:text="@string/set_d_day"
+                android:textColor="#E33F3F" />
+
+            <TextView
+                android:id="@+id/txtDDay"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="9dp" />
+
+            <Button
+                android:id="@+id/btnchart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#8FC2DA"
+                android:gravity="center|left"
+                android:text="@string/chart"
+                android:textColor="#F34F4F" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTg"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:textColor="#EF5C5C"
+        android:textSize="30sp" />
+
+    <ToggleButton
+        android:id="@+id/btnStart_Stop"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="@string/start"
+        android:textOn="@string/stop" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:id="@+id/btnStudy"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="@string/on_study"
+        android:textOn="@string/off_study"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="match_parent"
+        android:layout_height="29dp" />
+
+    <ToggleButton
+        android:id="@+id/btnEat"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="@string/on_eat_cook"
+        android:textOn="@string/off_eat_cook"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <ToggleButton
+        android:id="@+id/btnExercise"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="@string/on_exercise"
+        android:textOn="@string/off_exercise"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <ToggleButton
+        android:id="@+id/btnChill"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="@string/on_chill"
+        android:textOn="@string/off_chill"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <ToggleButton
+        android:id="@+id/btnSleep"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="@string/on_sleep"
+        android:textOn="@string/off_sleep"
+        android:textSize="20sp" />
+
+</LinearLayout>

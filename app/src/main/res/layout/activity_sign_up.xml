@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtHienthi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FC2DA"
+    android:orientation="vertical"
+    tools:context=".sign_up">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:text="@string/sign_up"
+        android:textColor="#E13939"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/username"
+        android:textColor="#DF554A"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:text="@string/password"
+        android:textColor="#DC5454"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtPassWord"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/verify_password"
+        android:textColor="#E45353"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtVerify"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/verify_password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#B0B8E4"
+        android:text="@string/ok" />
+
+    <TextView
+        android:id="@+id/txthienthi"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:hint="@string/sign_up" />
+
+</LinearLayout>

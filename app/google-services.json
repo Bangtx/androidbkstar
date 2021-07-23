@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628127530153",
+    "firebase_url": "https://counttimes-abd3c.firebaseio.com",
+    "project_id": "counttimes-abd3c",
+    "storage_bucket": "counttimes-abd3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628127530153:android:e4b70c2cc0458d2049bdb8",
+        "android_client_info": {
+          "package_name": "com.example.counttimes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628127530153-cjmghfha3udoec646hs6pdu0cm4lcs5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmBqUYmt361eVEahFaxGLBRg9buQsEt5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628127530153-cjmghfha3udoec646hs6pdu0cm4lcs5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

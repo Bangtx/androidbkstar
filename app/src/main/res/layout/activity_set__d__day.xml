@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FC2DA"
+    android:orientation="vertical"
+    tools:context=".Set_D_Day">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#E33535"
+        android:textSize="30sp"
+        tools:text="Name of d_day" />
+
+    <EditText
+        android:id="@+id/txtNameOfD_Day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/name_of_d_day"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="66dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textColor="#E33535"
+        android:textSize="30sp"
+        tools:text="Date of D_Day" />
+
+    <EditText
+        android:id="@+id/txtDD_Day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/d_day"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save" />
+
+</LinearLayout>
